@@ -1,0 +1,47 @@
+.score-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.score-container h2 {
+    color: crimson;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    background: rgba(16, 6, 112, 0.658);
+}
+
+.score-container h3 {
+    color: cyan;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.score-container img {
+    max-width: 450px;
+}
+
+.score-container button {
+    margin: 1rem;
+}
+
+.btn-end {
+    font-family: inherit;
+    padding: .8rem;
+    border-radius: 1rem;
+    width: 10rem;
+    background-color: rgba(0, 255, 157, 0.384);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 250ms linear;
+}
+
+.btn-end:hover {
+    background-color: rgba(0, 255, 157, 0.584);
+    width: 11rem;
+}
