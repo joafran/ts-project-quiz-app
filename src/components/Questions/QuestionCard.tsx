@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './QuestionCard.css'
 import img from '../../assets/question.svg';
 
